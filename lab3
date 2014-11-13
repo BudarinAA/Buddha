@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+</head>
+ <body>
+
+
+</body>
+</html>
+
+
+
+
+
+<SCRIPT SRC="jsMath/plugins/noImageFonts.js"> </SCRIPT>
+
+<SCRIPT SRC="jsMath/jsMath.js"> </SCRIPT>
+
+
+
+
+<DIV CLASS="math">
+\begin{matrix} \textrm{If J=0, then } 
+\\ \frac{\varphi_{x}^{+}}{\varphi_{y}^{+}}=\frac{\varphi_{x}^{-}}{\varphi_{y}^{-}}:\frac{-b+\sqrt{b^{2}-ac}}{a}, 
+\\ \frac{\varphi_{x}^{-}}{\varphi_{y}^{-}}=\frac{-b-\sqrt{b^{2}-ac}}{a}
+\end{matrix}
+</DIV>
+<script type="text/javascript">
+   jsMath.Process(document);
+</script>
+
+
+
+
+ <script type="text/javascript"> 
+
+   
+   function mathem()
+{
+   var sssr = '<span CLASS="math"> x \\times y \\cdot z \\quad</span>';
+   document.getElementById("formula").innerHTML = sssr;
+    jsMath.Process(document);
+}
+
+ 
+</script>
+
+
+
+
+	
