@@ -1,0 +1,208 @@
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+
+function smile()
+{
+    var mycanvas = document.getElementById('smile');
+    var cxt = mycanvas.getContext('2d');
+    
+	cxt.scale(1.3,1);
+    cxt.beginPath();
+	cxt.strokeStyle = 'black';
+	cxt.lineWidth = 5;
+    cxt.arc(300, 400, 100, 0, 2*Math.PI, true);
+	cxt.stroke();
+	cxt.fillStyle = '#FFFFE0';
+    cxt.fill();
+	cxt.scale(1/1.3,1);
+	
+	cxt.beginPath();
+	cxt.strokeStyle = 'black';
+	cxt.lineWidth = 5;
+    cxt.arc(385, 230, 80, 0, 2*Math.PI, true);
+	cxt.stroke();
+	cxt.fillStyle = '#FFFFE0';
+    cxt.fill();
+	
+	cxt.beginPath();
+	cxt.strokeStyle = 'black';
+	cxt.lineWidth = 5;
+    cxt.arc(385, 120, 40, 0, 2*Math.PI, true);
+	cxt.stroke();
+	cxt.fillStyle = '#FFFFE0';
+    cxt.fill();
+	
+	cxt.beginPath();
+    cxt.lineWidth = 5;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(315, 190);
+    cxt.lineTo(200, 250);
+    cxt.stroke();
+
+	cxt.beginPath();
+    cxt.lineWidth = 5;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(455, 190);
+    cxt.lineTo(550, 250);
+    cxt.stroke();
+
+	cxt.beginPath();
+    cxt.lineWidth = 5;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(520, 500);
+    cxt.lineTo(562, 160);
+    cxt.stroke();
+	
+	cxt.beginPath();
+    cxt.lineWidth = 5;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(562, 160);
+    cxt.lineTo(600, 80);
+    cxt.stroke();
+	
+	cxt.beginPath();
+    cxt.lineWidth = 5;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(562, 160);
+    cxt.lineTo(550, 80);
+    cxt.stroke();
+	
+	cxt.beginPath();
+    cxt.lineWidth = 5;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(562, 160);
+    cxt.lineTo(520, 80);
+    cxt.stroke();
+	
+	cxt.beginPath();
+    cxt.lineWidth = 5;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(562, 160);
+    cxt.lineTo(505, 80);
+    cxt.stroke();
+	
+	cxt.beginPath();
+    cxt.lineWidth = 5;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(562, 160);
+    cxt.lineTo(620, 80);
+    cxt.stroke();
+	
+	cxt.beginPath();
+	cxt.strokeStyle = 'black';
+	cxt.lineWidth = 5;
+    cxt.arc(370, 110, 5, 0, 2*Math.PI, true);
+	cxt.stroke();
+	cxt.fillStyle = 'black';
+    cxt.fill();
+	
+	cxt.beginPath();
+	cxt.strokeStyle = 'black';
+	cxt.lineWidth = 5;
+    cxt.arc(400, 110, 5, 0, 2*Math.PI, true);
+	cxt.stroke();
+	cxt.fillStyle = 'black';
+    cxt.fill();
+	
+	cxt.beginPath();
+	cxt.strokeStyle = 'black';
+	cxt.lineWidth = 5;
+    cxt.arc(385, 145, 5, 0, Math.PI, true);
+	cxt.stroke();
+	cxt.fillStyle = 'black';
+    cxt.fill();
+	
+	cxt.beginPath();
+	cxt.strokeStyle = 'black';
+	cxt.lineWidth = 5;
+    cxt.arc(385, 126, 5, Math.PI, 0, true);
+	cxt.stroke();
+	cxt.fillStyle = 'black';
+    cxt.fill();
+	
+
+
+	cxt.beginPath();
+    cxt.lineWidth = 3;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(340, 97);
+    cxt.lineTo(350, 25);
+    cxt.stroke();
+	
+	cxt.beginPath();
+    cxt.lineWidth = 3;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(428, 97);
+    cxt.lineTo(415, 25);
+    cxt.stroke();
+	
+	cxt.beginPath();
+    cxt.lineWidth = 3;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(340, 97);
+    cxt.lineTo(428, 97);
+    cxt.stroke();
+	
+	cxt.beginPath();
+    cxt.lineWidth = 3;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(348, 25);
+    cxt.lineTo(416, 25);
+    cxt.stroke();
+	
+	cxt.beginPath();
+    cxt.lineWidth = 10;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(348, 30);
+    cxt.lineTo(416, 30);
+    cxt.stroke();
+	
+	cxt.beginPath();
+    cxt.lineWidth = 10;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(348, 40);
+    cxt.lineTo(418, 40);
+    cxt.stroke();
+	
+	cxt.beginPath();
+    cxt.lineWidth = 10;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(348, 50);
+    cxt.lineTo(420, 50);
+    cxt.stroke();
+	
+	cxt.beginPath();
+    cxt.lineWidth = 20;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(345, 60);
+    cxt.lineTo(422, 60);
+    cxt.stroke();
+	
+	cxt.beginPath();
+    cxt.lineWidth = 20;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(343, 70);
+    cxt.lineTo(424, 70);
+    cxt.stroke();
+	
+	cxt.beginPath();
+    cxt.lineWidth = 31;
+    cxt.strokeStyle = 'black';
+    cxt.moveTo(342, 80);
+    cxt.lineTo(425, 80);
+    cxt.stroke();
+	
+
+}
+
+</script>
+</head>
+
+<body onLoad="smile()">
+
+<canvas id="smile" width="800" height="600"></canvas>
+
+</body>
+</html>
